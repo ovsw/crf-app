@@ -69,10 +69,10 @@
       <div class="navbar-end">
         <div class="navbar-item">
           <div class="buttons">
-            <a class="button is-crfblue">
+            <a class="button is-crfBlue">
               <strong>Parent Login</strong>
             </a>
-            <a class="button is-light">
+            <a class="button is-primary is-outlined">
               Latest Newsletter
             </a>
           </div>
