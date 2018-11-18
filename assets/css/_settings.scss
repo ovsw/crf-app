@@ -1,11 +1,22 @@
 // Set your colors
-$crf-red: #dd252b;
-$crf-red-invert: findColorInvert($crf-red);
-$primary: $crf-red;
-$primary-invert: findColorInvert($primary);
-$primary: $crf-red;
-$crfBlue: #263052;
+$crfRed: #dd252b;
+$crfRed-invert: findColorInvert($crfRed);
+
+// $crfBlue: #263052;
+$crfBlue: #375285;
 $crfBlue-invert: findColorInvert($crfBlue);
+
+$crfLight: #fef8e0;
+$crfLight-invert: findColorInvert($crfLight);
+
+$crfLighter: #fefaf2;
+$crfLighter-invert: findColorInvert($crfLighter);
+
+$crfGray: #fefaf2;
+$crfGray-invert: findColorInvert($crfGray);
+
+$primary: $crfRed;
+$primary-invert: findColorInvert($primary);
 
 // fonts
 $family-heading: 'Sue Ellen Francisco', cursive;
