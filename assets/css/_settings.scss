@@ -6,3 +6,7 @@ $primary-invert: findColorInvert($primary);
 $primary: $crf-red;
 $crfBlue: #263052;
 $crfBlue-invert: findColorInvert($crfBlue);
+
+// fonts
+$family-heading: 'Sue Ellen Francisco', cursive;
+$family-body: 'Montserrat', sans-serif;
