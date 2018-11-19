@@ -47,6 +47,7 @@ module.exports = {
     '@nuxtjs/axios',
     // Doc: https://buefy.github.io/#/documentation
     ['nuxt-sass-resources-loader', ['assets/css/_settings.scss']],
+    'nuxt-svg-loader',
     [
       'nuxt-buefy',
       {
@@ -60,7 +61,18 @@ module.exports = {
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
   },
-
+  /*
+  ** Nuxt Svg Loader module configuration
+  */
+  svgLoader: {
+    svgo: {
+      plugins: [
+        { removeDoctype: true },
+        { removeComments: true },
+        { prefixIds: true }
+      ]
+    }
+  },
   /*
   ** Build configuration
   */

@@ -73,7 +73,7 @@
               <strong>Parent Login</strong>
             </a>
             <a class="button is-primary is-outlined">
-              Latest Newsletter
+              <CabinSvg class="test" />Latest Newsletter
             </a>
           </div>
         </div>
@@ -83,5 +83,22 @@
   </nav>
 </template>
 
+<script>
+import CabinSvg from '@/assets/svg/cabin.svg'
+
+export default {
+  name: 'Nav',
+  components: {
+    CabinSvg
+  }
+}
+</script>
+
 <style lang="scss">
+.test {
+  width: 35px;
+  height: 28px;
+  margin-right: 10px;
+  fill: $crfRed;
+}
 </style>
